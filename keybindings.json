@@ -1,0 +1,38 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key": "cmd+y",
+        "command": "editor.action.deleteLines",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+b",
+        "command": "editor.action.goToDeclaration",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+alt+l",
+        "command": "editor.action.format",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+f6",
+        "command": "editor.action.rename",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+w",
+        "command": "editor.action.smartSelect.grow",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+shift+w",
+        "command": "editor.action.smartSelect.shrink",
+        "when": "editorTextFocus" 
+    },
+    {
+        "key": "cmd+alt+f7",
+        "command": "editor.action.showReferences",
+        "when": "editorTextFocus"
+    }
+]
