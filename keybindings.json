@@ -28,11 +28,31 @@
     {
         "key": "cmd+shift+w",
         "command": "editor.action.smartSelect.shrink",
-        "when": "editorTextFocus" 
+        "when": "editorTextFocus"
     },
     {
         "key": "cmd+alt+f7",
-        "command": "editor.action.showReferences",
+        "command": "editor.action.referenceSearch.trigger",
         "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+cmd+left",
+        "command": "workbench.action.navigateBack"
+    },
+    {
+        "key": "alt+cmd+right",
+        "command": "workbench.action.navigateForward"
+    },
+    {
+        "key": "alt+f4",
+        "command": "workbench.files.action.closeFile"
+    },
+    {
+        "key": "cmd+f12",
+        "command": "workbench.action.gotoSymbol"
+    },
+    {
+        "key": "cmd+1",
+        "command": "workbench.view.explorer"
     }
 ]
